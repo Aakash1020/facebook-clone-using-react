@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    z-index: 1;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 72);
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_input{
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 999px;;
+    margin-left: 10px;
+}
+.header_input > input{
+    outline-width: 0;
+    border: none;
+    background-color: transparent;
+    
+}
+.header__middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.header_options{
+    padding: 0 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.header_options:hover{
+    padding: 0 30px;
+    border-radius: 10px;
+    border-bottom: none;
+    background-color: #eff2f5;
+    align-items: center;
+}
+.header_options > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.header_options:hover > .MuiSvgIcon-root {
+    color:#1877f2;
+}
+.header_options--active > .MuiSvgIcon-root {
+    color: #1877f2;
+}
+.header_options--active{
+    border-bottom: 3px solid #1877f2;
+}
+
+.header_info{
+    display: flex;
+    align-items: center;
+}
+.header_info > h4 {
+    margin-left: 10px;
+}
+.header_right{
+    display: flex;
+}
+
+
+.header__left > img{
+    height: 40px;
+}
