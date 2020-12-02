@@ -13,11 +13,11 @@ import ExpandMoreOutlined from "@material-ui/icons/ExpandMoreOutlined"
 
 function Sidebar() {
     return <div className="sidebar">
-        <SidebarRow img src="https://en.wikipedia.org/wiki/Narendra_Modi#/media/File:Prime_Minister,_Shri_Narendra_Modi,_in_New_Delhi_on_August_08,_2019_(cropped).jpg" title="Aakash Rathod"/>
+        <SidebarRow img src="https://yt3.ggpht.com/ytc/AAUvwnjBxDbxCCpVNyEEKREl0qhQcIJ8DNaJkpv57LDsCMs=s176-c-k-c0x00ffffff-no-rj" title="Aakash Rathod"/>
         <SidebarRow 
             Icon={LocalHospitalIcon}
             title="COVID-19 Information Center"/>
-        <SidebarRow Icon={EmojiFlagsIcon} title="Pages"/>
+        <SidebarRow Icon={EmojiFlagsIcon}  title="Pages"/>
         <SidebarRow Icon={PeopleIcon} title="Friends"/>
         <SidebarRow Icon={ChatIcon} title="Messenger"/>
         <SidebarRow Icon={StorefrontIcon} title="Marketplace"/>

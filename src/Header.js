@@ -44,10 +44,10 @@ function Header() {
             <div className="header_right">
                 <div className="header_info">
                     <Avatar/>
-                    <h4>Aakash Rathod</h4>
+                    <h4>Aakash</h4>
                 </div>
 
-                    <div>
+                    <div className="header_right_elements">
                         <IconButton>
                             <AddIcon/>
                         </IconButton>    
