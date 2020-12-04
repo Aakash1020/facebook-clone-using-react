@@ -8,12 +8,16 @@ import ChatIcon from "@material-ui/icons/Chat";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import ExpandMoreOutlined from "@material-ui/icons/ExpandMoreOutlined"
+import { useStateValue } from "./StateProvider"
 
 
 
 function Sidebar() {
+    const [{ user }, dispatch] = useStateValue();
     return <div className="sidebar">
-        <SidebarRow img src="https://yt3.ggpht.com/ytc/AAUvwnjBxDbxCCpVNyEEKREl0qhQcIJ8DNaJkpv57LDsCMs=s176-c-k-c0x00ffffff-no-rj" title="Aakash Rathod"/>
+        <SidebarRow 
+        src={user.photoURL}
+        title={user.displayName}/>
         <SidebarRow 
             Icon={LocalHospitalIcon}
             title="COVID-19 Information Center"/>
