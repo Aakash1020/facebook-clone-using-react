@@ -14,11 +14,11 @@ function StoryReel() {
                 profilesrc="https://media3.s-nbcnews.com/j/newscms/2020_44/3423773/201028-priyanka-chopra-jm-1555_af13402633128e04dfcf5b1ed52aa915.fit-2000w.jpg"
                 title="Pryanka Chopra"/>
                 <Story
-                image="https://th.thgim.com/entertainment/movies/m9szuk/article33229503.ece/ALTERNATES/FREE_460/SALAAR"
+                image="https://i.pinimg.com/originals/62/e4/1d/62e41df9f69abb43b42a53d0a91544d6.png"
                 profilesrc="https://m.media-amazon.com/images/M/MV5BNTk1OTUxMzIzMV5BMl5BanBnXkFtZTcwMzMxMjI0Nw@@._V1_UY317_CR8,0,214,317_AL__QL50.jpg"
                 title="Amitabh Bachchan"/>
                 <Story
-                image="https://th.thgim.com/entertainment/movies/m9szuk/article33229503.ece/ALTERNATES/FREE_460/SALAAR"
+                image="https://i.pinimg.com/564x/82/61/e9/8261e934d86ece4690ab01a8d189bf9e.jpg"
                 profilesrc="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/08/19/720147-638569-637226-prabhas.jpg"
                 title="Tiger"/>
                 <Story
